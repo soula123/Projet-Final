@@ -1,0 +1,57 @@
+
+.bg-darkBlue {
+    --tw-bg-opacity: 1;
+    background-color: rgba(3,17,54,var(--tw-bg-opacity));
+  }
+
+.content{
+    display: flex;
+    gap:90px;
+    padding-left:30px ;
+    padding-right: 30px;
+}
+
+.loader h1 {
+    position: relative;
+    color: lightblue;
+    font-weight: bold;
+    font-family: "Anonymous Pro", monospace;
+    letter-spacing: 7px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid lightblue;
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+      blinkTextCursor 500ms infinite;
+  }
+  
+  @keyframes typewriter {
+    from {
+      width: 0;
+    }
+    to {
+      width: 710px;
+    }
+  }
+  @keyframes blinkTextCursor {
+    from {
+      border-right-color:lightblue
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
+.Description{
+    padding-top: 50px;
+}
+p{
+font-family: roboto;
+color: white;
+font-size: 20px;
+}
+.loader{
+    display: flex;
+    gap:90px;
+    padding-left:40px ;
+    padding-right: 30px;
+    }
+    

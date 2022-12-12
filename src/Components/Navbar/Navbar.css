@@ -1,0 +1,9 @@
+
+.bg-darkBlue {
+    --tw-bg-opacity: 1;
+    background-color: rgba(3,17,54,var(--tw-bg-opacity));
+  }
+
+.dropdown-toggle::after{
+    color: white;
+}

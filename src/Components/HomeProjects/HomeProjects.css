@@ -1,0 +1,18 @@
+
+.HomeProjects-container{
+    --tw-bg-opacity: 1;
+    background-color: rgba(3,17,54,var(--tw-bg-opacity));
+    padding-top: 40px;
+}
+
+
+.element1 {
+    position: absolute;
+    right: 0;
+    top:220%
+}
+.element{
+    position: absolute;
+    left: 0;
+    top: 300%;
+}

@@ -1,0 +1,28 @@
+.slides .slick-prev,
+.slides .slick-next {
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+}
+
+
+.slides {
+  position: relative;
+  width:900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+
+}
+
+
+.slides .slick-prev {
+  left: 5%;
+}
+
+.slides .slick-next {
+  right: 5%;
+}
+.slick-dots{
+  position: static;
+}

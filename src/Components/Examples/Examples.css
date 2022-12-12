@@ -1,0 +1,17 @@
+h1 {
+    color: #02055A;
+    font-size: large;
+    font-weight: bold;
+    font-size: 50px;
+}
+.examples-container{
+    margin:0px 0px 70px 0px  ;    
+}
+.Cont{
+justify-content: center;
+}
+
+.carousel-container{
+border:  1px solid #02055A ;
+
+}
